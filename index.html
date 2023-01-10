@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <!-- creo contenedor llamado calculadora -->
+    <div class="calculadora">
+        <!-- creo contenedor para la pantalla donde apareceran los numeros -->
+        <div class="pantalla-resultado">
+            <span id="Resultado"></span> <!-- rse mostrara el resultado en pantalla-->
+        </div>
+
+        <!-- seccion de botones -->
+
+        <!-- boton de borrar -->
+        <input type="button" class="operacion-borrar" value="C" id="Borrar">
+        
+        <!-- botones de numeros y operaciones -->
+        <div class="botones">
+            <!-- fila inicio-->
+            <!-- <input type="button" class="operacionTrigonometrica" value="sin" id="seno">
+            <input type="button" class="operacionTrigonometrica" value="cos" id="coseno">
+            <input type="button" class="operacionTrigonometrica" value="tan" id="tangente">
+            <input type="button" class="operacion" value="√" id="raizCuadrada"> -->
+            <!-- primera fila -->
+            <!-- <input type="button" class="operacion" value="(" id="parentesis1">
+            <input type="button" class="operacion" value=")" id="parentesis2">
+            <input type="button" class="operacion" value="x!" id="exponente">
+            <input type="button" class="operacion" value="%" id="modulo"> -->
+            <!-- segunda fila -->
+            <input type="button" class="numero" value="7" id="siete">
+            <input type="button" class="numero" value="8" id="ocho">
+            <input type="button" class="numero" value="9" id="nueve">
+            <input type="button" class="operacion" value="/" id="division">
+            <!-- tercera fila -->
+            <input type="button" class="numero" value="4" id="cuatro">
+            <input type="button" class="numero" value="5" id="cinco">
+            <input type="button" class="numero" value="6" id="seis">
+            <input type="button" class="operacion" value="*" id="multiplicacion">
+            <!-- cuarta fila -->
+            <input type="button" class="numero" value="1" id="uno">
+            <input type="button" class="numero" value="2" id="dos">
+            <input type="button" class="numero" value="3" id="tres">
+            <input type="button" class="operacion" value="-" id="resta">
+            <!-- quinta fila -->
+            <input type="button" class="numero" value="0" id="cero">
+            <input type="button" class="numero" value="." id="punto">
+            <input type="button" class="resultado" value="=" id="igual">
+            <input type="button" class="operacion" value="+" id="suma">
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
